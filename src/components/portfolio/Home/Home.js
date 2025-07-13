@@ -6,7 +6,7 @@ export default function Home() {
     <section id="home" className="home section">
       <div className="overlay">
         <h1 data-aos="fade-down">Hi, I'm Ankit Pandey</h1>
-        <p data-aos="fade-up">Frontend Developer • React • Node.js • MongoDB</p>
+        <p data-aos="fade-up">FullStack Developer  • React • MongoDB • NextJS • Express  </p>
       </div>
     </section>
   );

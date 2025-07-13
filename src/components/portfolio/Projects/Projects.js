@@ -5,17 +5,34 @@ export default function Projects() {
   const projects = [
     {
       title: "Study Tracker App",
-      description: "React + Node.js project to track study logs.",
+      description: "A full-stack MERN app to track daily study activities.",
       tech: ["React", "Express", "MongoDB"],
       link: "#"
     },
     {
       title: "Portfolio Website",
-      description: "This current portfolio site built with React and AOS.",
+      description: "This responsive portfolio built with React and animated with AOS.",
       tech: ["React", "CSS", "AOS"],
       link: "#"
     },
-    // add more...
+    {
+      title: "BUDEASE – Event Management",
+      description: "An event creation and registration platform for sports, dance, and other events.",
+      tech: ["Next.js", "MongoDB", "Tailwind CSS"],
+      link: "#"
+    },
+    {
+      title: "Freight Management System",
+      description: "A centralized ASP.NET MVC platform to automate shipment, drivers, routes, and logistics.",
+      tech: [".NET MVC", "SQL Server", "Entity Framework"],
+      link: "#"
+    },
+    {
+      title: "Tumble Dry – Laundry Workflow App",
+      description: "Backend system for managing laundry lifecycle: intake → processing → ironing → dispatch.",
+      tech: [".NET Core", "SQL Server", "REST API"],
+      link: "#"
+    }
   ];
 
   return (

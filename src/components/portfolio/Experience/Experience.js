@@ -12,7 +12,7 @@ export default function Experience() {
     },
     {
       title: "Frontend Developer Intern",
-      company: "ABC Tech - Project Astropie",
+      company: "Saitec International Computer Consultant - Project Astropie",
       period: "Jan 2024 – Mar 2024",
       details:
         "Worked on a full-stack project 'Astropie' with React frontend and Express backend. Built reusable components and integrated RESTful APIs."
