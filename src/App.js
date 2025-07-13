@@ -2,24 +2,28 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import StudyLogsPage from "./components/StudyLogsPage";
-import PreparationPlanPage from "./components/StudyLogsPage";
+import PreparationPlanPage from "./components/PreparationPage"; // ✅ Correct import
 import Portfolio from "./components/Portfolio";
-import './App.css'
+import './App.css';
+
 function App() {
   return (
     <Router>
-      <nav style={{ margin: 20 }}>
-        <Link to="/" style={{ marginRight: 20 }}>
-          Study Logs
-        </Link>
-        <Link to="/plan">Preparation Plan & PDF</Link>
-      </nav>
+      <header className="navbar">
+        <nav className="nav-links">
+          <Link to="/" className="nav-link">Study Logs</Link>
+          <Link to="/plan" className="nav-link">Preparation Plan & PDF</Link>
+          <Link to="/portfolio" className="nav-link">Portfolio</Link>
+        </nav>
+      </header>
 
-      <Routes>
-        <Route path="/" element={<StudyLogsPage />} />
-        <Route path="/plan" element={<PreparationPlanPage />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
+      <main className="content">
+        <Routes>
+          <Route path="/" element={<StudyLogsPage />} />
+          <Route path="/plan" element={<PreparationPlanPage />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      </main>
     </Router>
   );
 }

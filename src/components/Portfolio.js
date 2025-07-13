@@ -16,11 +16,12 @@ function Portfolio() {
     <>
       <Navbar />
       <main>
-        <Home />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Education />
+      <section id="home" data-aos="fade-up"><Home /></section>
+<section id="skills" data-aos="fade-up"><Skills /></section>
+<section id="projects" data-aos="fade-up"><Projects /></section>
+<section id="experience" data-aos="fade-up"><Experience /></section>
+<section id="education" data-aos="fade-up"><Education /></section>
+
       </main>
       <Footer />
     </>
