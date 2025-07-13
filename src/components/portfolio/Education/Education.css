@@ -1,0 +1,15 @@
+.edu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+  .edu-card {
+    background: #fff; padding: 20px; border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+    transition: transform 0.3s;
+  }
+  .edu-card:hover { transform: translateY(-5px); }
+  .edu-card h3 { margin-bottom: 6px; }
+  .edu-card span { color: #007bff; margin-bottom: 4px; display: block; }
+  
