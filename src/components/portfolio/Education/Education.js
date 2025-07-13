@@ -4,17 +4,32 @@ import "./Education.css";
 export default function Education() {
   const edus = [
     {
-      degree: "B.Sc. in Computer Science",
-      institute: "XYZ University",
-      period: "2020 – 2023",
-      details: "Specialized in software development and algorithms."
+      degree: "10th Grade",
+      institute: "Holy Trinity Church School, Ghaziabad",
+      period: "2013 - 2014",
+      details: "Completed secondary education with distinction.",
     },
     {
-      degree: "High School",
-      institute: "ABC College",
-      period: "2018 – 2020",
-      details: "Graduated with distinction in maths and science."
+      degree: "12th Grade (Science Stream)",
+      institute: "Sarvodaya Bal Vidyalaya, Anand Vihar, Delhi-92",
+      period: "2015 - 2016",
+      details: "Completed higher secondary education with science stream subjects.",
     },
+    {
+      degree: "B.Sc. in Physics, Chemistry, and Mathematics",
+      institute: "L.R. P.G. College, Sahibabad, Ghaziabad",
+      period: "2017 - 2020",
+      details: "Studied core science subjects with a strong foundation in analytical reasoning.",
+    },
+    {
+      degree: "M.C.A. (Master of Computer Applications)",
+      institute: "ABES Engineering College, Ghaziabad",
+      period: "2020 - 2022",
+      details: "Focused on advanced software development, databases, and system architecture.",
+    },
+   
+   
+    
   ];
 
   return (
